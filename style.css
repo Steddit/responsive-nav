@@ -42,6 +42,37 @@ ul>:first-child{
     position: fixed;
     top: 0;
     right: 0;
-    background-color: aliceblue;
+    background-color: rgba(240, 248, 255, 0.559);
     height: 100vh;
+    display: none;
+    width: 250px;
+    z-index: 999;
+    padding: 0;
+}
+
+.slidebar>li{
+    width: 100%;
+    margin: 0%;
+}
+.slidebar>a{
+    width: 100%;
+}
+
+#menu{
+    display: none;
+}
+
+@media (max-width:640px){
+    #menu{
+        display: block;
+    }
+    .nav-item{
+        display: none;
+    }
+}
+
+@media (max-width:400px){
+    .slidebar{
+        width: 100%;
+    }
 }
