@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url(./images/nav-001.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    background-color: aliceblue;
+    box-shadow: black;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+li{
+    text-decoration: none;
+    padding: 15px;
+    list-style-type: none;
+}
+li:hover{
+    background-color: rgb(207, 215, 218);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul>:first-child{
+    margin-right: auto;
+}
+.slidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: aliceblue;
+    height: 100vh;
+}
